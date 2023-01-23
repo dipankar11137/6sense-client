@@ -26,7 +26,7 @@ const UserInput = () => {
   };
   return (
     <div className="flex justify-center ">
-      <div className=" w-96 bg-slate-200 rounded-lg shadow-2xl p-10 mt-7 mb-96">
+      <div className=" w-96 bg-slate-200 rounded-lg shadow-2xl p-10 mt-7">
         <form className="" onSubmit={handleSubmit(onSubmit)}>
           <h1 className="text-2xl font-bold text-center">
             {/* {appleProduct?.name} */}

@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../Share/Footer";
+import ShowUsers from "../Task6sense/ShowUsers";
 import UserInput from "../Task6sense/UserInput";
 import AppleProducts from "./AppleProducts";
 import Banner from "./Banner";
@@ -19,6 +20,7 @@ const Home = () => {
 
       {/* Task */}
       <UserInput />
+      <ShowUsers />
     </div>
   );
 };
