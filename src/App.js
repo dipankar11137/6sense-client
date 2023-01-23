@@ -33,8 +33,8 @@ Aos.init();
 function App() {
   return (
     <div>
-      <Header />
-      <Navbar />
+      {/* <Header /> */}
+      {/* <Navbar /> */}
 
       <Routes>
         <Route path="/" element={<Home />} />
